@@ -1,0 +1,212 @@
+{
+  "textData": {
+    "name": "Huy",
+    "age": 24
+  },
+  "tableData": {
+    "student": [
+      {
+        "name": "Tuan",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      },
+      {
+        "name": "Huy",
+        "score": 0
+      },
+      {
+        "name": "Thanh",
+        "score": 9
+      },
+      {
+        "name": "Duong",
+        "score": 10
+      },
+      {
+        "name": "Ha",
+        "score": 10
+      }
+    ],
+    "subject": [
+      {
+        "name": "Toan",
+        "credits": 10
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      },
+      {
+        "name": "Ly",
+        "credits": 5
+      },
+      {
+        "name": "Hoa",
+        "credits": 7
+      }
+    ]
+  }
+}

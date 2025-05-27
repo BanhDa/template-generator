@@ -1,0 +1,88 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse-specific files
+*.pydevproject
+.project
+.metadata
+.classpath
+.c9/
+*.launch
+.settings/
+.buildpath
+.factorypath
+
+# IDEA-specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# NetBeans-specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Gradle files
+.gradle/
+build/
+
+# Maven
+target/
+dependency-reduced-pom.xml
+release.properties
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release-version.txt
+development-version.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Spring Boot devtools restart directory
+.spring-boot-devtools.properties
+
+# Docker
+docker-compose.override.yml
+*.container
+
+# Lombok generated files
+lombok.config
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Test reports
+test-output/
+surefire-reports/
