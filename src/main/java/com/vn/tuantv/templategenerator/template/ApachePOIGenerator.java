@@ -2,6 +2,12 @@ package com.vn.tuantv.templategenerator.template;
 
 import com.vn.tuantv.templategenerator.dto.ExcelTemplateData;
 import com.vn.tuantv.templategenerator.utils.StringUtil;
+import lombok.AllArgsConstructor;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.HashMap;
@@ -9,18 +15,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.springframework.stereotype.Service;
 
 @Service
+@AllArgsConstructor
 public class ApachePOIGenerator implements ExcelGenerator {
 
   public static Pattern pattern = Pattern.compile("\\$\\{(.*?)}");
+
+  private final DataTranformer dataTranformer;
 
   @Override
   public void generate(String templateFilePath, String outputFilePath,
@@ -33,8 +35,13 @@ public class ApachePOIGenerator implements ExcelGenerator {
       Sheet sheet = workbook.getSheetAt(0);
 
       StringBuilder stringBuilder = new StringBuilder();
+
+      Map<String, Map<String, List<String>>> tableData = dataTranformer.transformTableData(
+              templateData.getColumnData()
+      );
+
       // fill table data
-      fillTables(sheet, templateData.getTableData(), stringBuilder);
+      fillTables(sheet, tableData, stringBuilder);
       // fill text data
       fillPlaceholders(sheet, templateData.getTextData(), stringBuilder);
 
@@ -48,7 +55,7 @@ public class ApachePOIGenerator implements ExcelGenerator {
     }
   }
 
-  private void fillTables(Sheet sheet, Map<String, List<Map<String, String>>> tableData, StringBuilder stringBuilder) {
+  private void fillTables(Sheet sheet, Map<String, Map<String, List<String>>> tableData, StringBuilder stringBuilder) {
     if (tableData == null || tableData.isEmpty()) {
       return;
     }
@@ -61,18 +68,44 @@ public class ApachePOIGenerator implements ExcelGenerator {
     });
   }
 
-  private void fillTable(Sheet sheet, String tableName, List<Map<String, String>> dataList, StringBuilder stringBuilder) {
+  private int getTotalNumberOfRow(Map<String, List<String>> dataList) {
+    if (dataList == null || dataList.isEmpty()) {
+      return 0;
+    }
+    int rowNumber = 0;
+    for (Map.Entry<String, List<String>> entry : dataList.entrySet()) {
+      if (entry.getValue() != null && !entry.getValue().isEmpty()) {
+        if (rowNumber < entry.getValue().size()) {
+          rowNumber = entry.getValue().size();
+        }
+      }
+    }
+
+    return rowNumber;
+  }
+
+  private void fillTable(Sheet sheet, String tableName, Map<String, List<String>> dataList, StringBuilder stringBuilder) {
     int startRow = findRowWithPlaceholder(sheet, "${" + tableName);
 
     Row templateRow = sheet.getRow(startRow);
-    insertRows(sheet, startRow, dataList.size());
+    int totalNumberOfRow = getTotalNumberOfRow(dataList);
+    insertRows(sheet, startRow, totalNumberOfRow - 1);
 
     Map<String, String> rowData = new HashMap<>();
-    for (int i = 0; i < dataList.size(); i++) {
-      dataList.get(i).forEach((key, value) -> rowData.put(tableName + StringUtil.DOT + key, value));
+    for (int rowIndex = 0; rowIndex < totalNumberOfRow; rowIndex++) {
 
-      Row newRow = sheet.getRow(startRow + i);
-
+      String value;
+      for (Map.Entry<String, List<String>> entry : dataList.entrySet()) {
+        String fieldName = entry.getKey();
+        List<String> values = entry.getValue();
+        if (!CollectionUtils.isEmpty(values) && rowIndex < values.size()) {
+          value = values.get(rowIndex);
+        } else {
+          value = StringUtil.EMPTY;
+        }
+        rowData.put(tableName + StringUtil.DOT + fieldName, value);
+      }
+      Row newRow = sheet.getRow(startRow + rowIndex);
       for (Cell cell : templateRow) {
         Cell newCell = newRow.createCell(cell.getColumnIndex(), cell.getCellType());
         String cellValue = getCellString(cell);

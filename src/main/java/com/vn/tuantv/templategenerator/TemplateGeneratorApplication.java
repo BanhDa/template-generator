@@ -5,25 +5,21 @@ import com.vn.tuantv.templategenerator.dto.WordTemplateData;
 import com.vn.tuantv.templategenerator.template.ExcelGenerator;
 import com.vn.tuantv.templategenerator.template.WordGenerator;
 import com.vn.tuantv.templategenerator.utils.JsonService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@AllArgsConstructor
 public class TemplateGeneratorApplication implements CommandLineRunner {
 
   public static void main(String[] args) {
     SpringApplication.run(TemplateGeneratorApplication.class, args);
   }
 
-  @Autowired
-  @Qualifier("apachePOIGeneratorNew")
-  private ExcelGenerator excelGenerator;
-  @Autowired
-  @Qualifier("docx4JGeneratorNew")
-  private WordGenerator wordGenerator;
+  private final ExcelGenerator excelGenerator;
+  private final WordGenerator wordGenerator;
 
   @Override
   public void run(String... args) {

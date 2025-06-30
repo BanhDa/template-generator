@@ -3,252 +3,42 @@
     "name": "Huy",
     "age": 24
   },
-  "tableDataNew": {
-    "student": {
-      "name": [
-        "Tuan",
-        "Huy",
-        "Thanh",
-        "Duong",
-        "Ha",
-        "Huy",
-        "Thanh",
-        "Duong",
-        "Ha",
-        "Huy",
-        "Thanh",
-        "Duong",
-        "Ha"
-      ],
-      "score": [
-        10,
-        0,
-        9,
-        10,
-        10,
-        0,
-        9,
-        10,
-        10,
-        0,
-        9,
-        10,
-        10
-      ]
-    },
-    "subject": {
-      "name": [
-        "Toan"
-      ],
-      "credits": [
-        10
-      ]
-    }
-  },
-  "tableData": {
-    "student": [
-      {
-        "name": "Tuan",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      },
-      {
-        "name": "Huy",
-        "score": 0
-      },
-      {
-        "name": "Thanh",
-        "score": 9
-      },
-      {
-        "name": "Duong",
-        "score": 10
-      },
-      {
-        "name": "Ha",
-        "score": 10
-      }
+  "columnData": {
+    "student.name": [
+      "Tuan",
+      "Huy",
+      "Thanh",
+      "Duong",
+      "Ha",
+      "Huy",
+      "Thanh",
+      "Duong",
+      "Ha",
+      "Huy",
+      "Thanh",
+      "Duong",
+      "Ha"
     ],
-    "subject": [
-      {
-        "name": "Toan",
-        "credits": 10
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      },
-      {
-        "name": "Ly",
-        "credits": 5
-      },
-      {
-        "name": "Hoa",
-        "credits": 7
-      }
+    "student.score": [
+      10,
+      0,
+      9,
+      10,
+      10,
+      0,
+      9,
+      10,
+      10,
+      0,
+      9,
+      10,
+      10
+    ],
+    "subject.name": [
+      "Toan"
+    ],
+    "subject.credits": [
+      10
     ]
   }
 }

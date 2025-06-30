@@ -2,32 +2,29 @@ package com.vn.tuantv.templategenerator.template;
 
 import com.vn.tuantv.templategenerator.dto.WordTemplateData;
 import com.vn.tuantv.templategenerator.utils.StringUtil;
+import lombok.AllArgsConstructor;
+import org.docx4j.XmlUtils;
+import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
+import org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart;
+import org.docx4j.wml.*;
+import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
+import org.springframework.util.StringUtils;
+
+import javax.xml.bind.JAXBElement;
 import java.io.File;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.xml.bind.JAXBElement;
-import lombok.AllArgsConstructor;
-import org.docx4j.XmlUtils;
-import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
-import org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart;
-import org.docx4j.wml.P;
-import org.docx4j.wml.R;
-import org.docx4j.wml.Tbl;
-import org.docx4j.wml.Tc;
-import org.docx4j.wml.Text;
-import org.docx4j.wml.Tr;
-import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
 
 @Service
 @AllArgsConstructor
 public class Docx4JGenerator implements WordGenerator {
+
+  private final DataTranformer dataTranformer;
 
   @Override
   public void generate(String templateFilePath, String outputFilePath, WordTemplateData wordTemplateData) {
@@ -119,7 +116,10 @@ public class Docx4JGenerator implements WordGenerator {
   }
 
   private void fillTable(Tbl table, WordTemplateData wordTemplateData) {
-    Map<String, List<Map<String, String>>> tableData = wordTemplateData.getTableData();
+    Map<String, Map<String, List<String>>> tableData = dataTranformer.transformTableData(
+            wordTemplateData.getColumnData()
+    );
+
     List<Object> rows = table.getContent();
 
     StringBuilder stringBuilder = new StringBuilder();
@@ -136,8 +136,8 @@ public class Docx4JGenerator implements WordGenerator {
       // nếu text trùng với key của bàng ví dụ ${...table}
 
       String tableName = StringUtil.EMPTY;
-      List<Map<String, String>> dataList = new ArrayList<>();
-      for (Entry<String, List<Map<String, String>>> entry : tableData.entrySet()) {
+      Map<String, List<String>> dataList = new HashMap<>();
+      for (Entry<String, Map<String, List<String>>> entry : tableData.entrySet()) {
         String key = entry.getKey();
         if (rowText.contains("${" + key)) {
           dataList = entry.getValue();
@@ -156,14 +156,42 @@ public class Docx4JGenerator implements WordGenerator {
       table.getContent().remove(rowIndex);
 
       // Thêm các dòng dữ liệu
-      for (Map<String, String> rowData : dataList) {
-        Tr newRow = createRowFromData(tableName, rowData, templateRow, stringBuilder);
+      int totalNumberOfRow = getTotalNumberOfRow(dataList);
+      for (int rowDataIndex = 0; rowDataIndex < totalNumberOfRow; rowDataIndex++) {
+        Map<String, String> rowData = new HashMap<>();
+        for (Entry<String, List<String>> entry : dataList.entrySet()) {
+          String fieldName = entry.getKey();
+          List<String> values = entry.getValue();
+          String value = StringUtil.EMPTY;
+          if (values != null && rowDataIndex < values.size()) {
+            value = values.get(rowDataIndex);
+          }
+          rowData.put("${" + tableName + "." + fieldName + "}", value);
+        }
+
+        Tr newRow = createRowFromData(rowData, templateRow, stringBuilder);
         table.getContent().add(rowIndex, newRow);
         rowIndex++;
         stringBuilder.setLength(0);
       }
       return; // xong thì thoát
     }
+  }
+
+  private int getTotalNumberOfRow(Map<String, List<String>> dataList) {
+    if (dataList == null || dataList.isEmpty()) {
+      return 0;
+    }
+    int rowNumber = 0;
+    for (Map.Entry<String, List<String>> entry : dataList.entrySet()) {
+      if (entry.getValue() != null && !entry.getValue().isEmpty()) {
+        if (rowNumber < entry.getValue().size()) {
+          rowNumber = entry.getValue().size();
+        }
+      }
+    }
+
+    return rowNumber;
   }
 
   private boolean fillTexData(Object paraObj, StringBuilder stringBuilder, List<Object> paraContents) {
@@ -204,10 +232,7 @@ public class Docx4JGenerator implements WordGenerator {
     return sb.toString().trim();
   }
 
-  private Tr createRowFromData(String tableName, Map<String, String> rowData, Tr templateRow, StringBuilder stringBuilder) {
-    Map<String, String> rowDataNew = new HashMap<>();
-    rowData.forEach((key, value) -> rowDataNew.put("${" + tableName + "." + key + "}", value));
-
+  private Tr createRowFromData(Map<String, String> rowData, Tr templateRow, StringBuilder stringBuilder) {
     Tr newRow = XmlUtils.deepCopy(templateRow);
     // lặp qua từng ô trong hàng
     for (Object rowContent : newRow.getContent()) {
@@ -223,10 +248,10 @@ public class Docx4JGenerator implements WordGenerator {
               List<Object> textContents = r.getContent();
               if (!CollectionUtils.isEmpty(textContents)) {
                 Text text = (Text) ((JAXBElement<?>) textContents.get(0)).getValue();
-                text.setValue(rowDataNew.get(cellValue));
+                text.setValue(rowData.get(cellValue));
                 for (int i = 1; i < textContents.size(); i++) {
                   text = (Text) ((JAXBElement<?>) textContents.get(i)).getValue();
-                  text.setValue(rowDataNew.get(cellValue));
+                  text.setValue(rowData.get(cellValue));
                 }
                 paraContents.clear();
                 paraContents.add(paraObj);

@@ -9,4 +9,6 @@ public class StringUtil {
   public static final String EMPTY = "";
   public static final String DOT = ".";
 
+  public static final String DOT_PATTERN = "\\.";
+
 }
