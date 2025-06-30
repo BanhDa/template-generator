@@ -3,6 +3,49 @@
     "name": "Huy",
     "age": 24
   },
+
+  "tableDataNew": {
+    "student": {
+      "name": [
+        "Tuan",
+        "Huy",
+        "Thanh",
+        "Duong",
+        "Ha",
+        "Huy",
+        "Thanh",
+        "Duong",
+        "Ha",
+        "Huy",
+        "Thanh",
+        "Duong",
+        "Ha"
+      ],
+      "score": [
+        10,
+        0,
+        9,
+        10,
+        10,
+        0,
+        9,
+        10,
+        10,
+        0,
+        9,
+        10,
+        10
+      ]
+    },
+    "subject": {
+      "name": [
+        "Toan"
+      ],
+      "credits": [
+        10
+      ]
+    }
+  },
   "tableData": {
     "student": [
       {

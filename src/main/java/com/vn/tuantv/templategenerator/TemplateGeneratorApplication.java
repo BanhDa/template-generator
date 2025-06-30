@@ -6,6 +6,7 @@ import com.vn.tuantv.templategenerator.template.ExcelGenerator;
 import com.vn.tuantv.templategenerator.template.WordGenerator;
 import com.vn.tuantv.templategenerator.utils.JsonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +19,7 @@ public class TemplateGeneratorApplication implements CommandLineRunner {
   }
 
   @Autowired
+  @Qualifier("apachePOIGeneratorNew")
   private ExcelGenerator excelGenerator;
   @Autowired
   private WordGenerator wordGenerator;
