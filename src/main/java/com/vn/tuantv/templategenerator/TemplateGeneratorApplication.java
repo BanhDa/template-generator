@@ -22,6 +22,7 @@ public class TemplateGeneratorApplication implements CommandLineRunner {
   @Qualifier("apachePOIGeneratorNew")
   private ExcelGenerator excelGenerator;
   @Autowired
+  @Qualifier("docx4JGeneratorNew")
   private WordGenerator wordGenerator;
 
   @Override

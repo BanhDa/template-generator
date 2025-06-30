@@ -12,6 +12,8 @@ public class WordTemplateData {
 
   private Map<String, List<Map<String, String>>> tableData = new HashMap<>();
 
+  private Map<String, Map<String, List<String>>> tableDataNew = new HashMap<>();
+
   public boolean hasData() {
     return (textData != null && !textData.isEmpty())
         || (tableData != null && !tableData.isEmpty());
