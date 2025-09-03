@@ -1,0 +1,28 @@
+{
+  "data" : {
+    "user": {
+      "name": "Huy",
+      "age": 24
+    },
+    "students" : [
+      {
+        "name" : "A",
+        "age" : "0"
+      },
+      {
+        "name" : "B",
+        "age" : "1"
+      }
+    ],
+    "subjects" : [
+      {
+        "name" : "subject A",
+        "credit" : "00"
+      },
+      {
+        "name" : "subject B",
+        "credit" : "01"
+      }
+    ]
+  }
+}
