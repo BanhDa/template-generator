@@ -118,6 +118,19 @@
       <version>2.14.0</version>
     </dependency>
 
+      <dependency>
+          <groupId>com.deepoove</groupId>
+          <artifactId>poi-tl</artifactId>
+          <version>1.12.2</version>
+      </dependency>
+
+      <!-- Resize ảnh nhanh -->
+      <dependency>
+          <groupId>net.coobird</groupId>
+          <artifactId>thumbnailator</artifactId>
+          <version>0.4.20</version>
+      </dependency>
+
   </dependencies>
 
   <build>
