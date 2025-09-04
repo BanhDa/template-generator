@@ -1,0 +1,2636 @@
+{
+  "data": {
+    "type": "RM",
+    "docNo": "00010043/2025/BCTTKH-MSB Nghệ An",
+    "day": "09",
+    "month": "08",
+    "year": "2025",
+    "userName": null,
+    "uniqueId": null,
+    "createdFormFullName": "uyenltt2",
+    "currentDateTime": "09/08/2025 11:42:59",
+    "areaName": "CN Nghệ An",
+    "area": null,
+    "purposeType": "tái cấp",
+    "levelApproval": null,
+    "creditProgramProducts": null,
+    "creditProducts": "QĐ.EB.016",
+    "creditSpecialProducts": "",
+    "applicationInfo": {
+      "branchCode": "220",
+      "branchName": "CN Nghệ An",
+      "businessUnitCode": "22000",
+      "businessUnitName": "MSB Nghệ An",
+      "rmUser": "uyenltt2",
+      "rmName": "Lê Thị Tố Uyên",
+      "rmPhoneNumber": "0966298967",
+      "tlUser": null,
+      "tlName": null,
+      "tlPhoneNumber": null,
+      "hhUser": null,
+      "hhName": null,
+      "hhPhoneNumber": null,
+      "caUser": null,
+      "caName": null,
+      "caPhoneNumber": null,
+      "solutionPackage": "Main1, Main3",
+      "creditProposalSolutionPackage": "Main1, Main3",
+      "subIndustryChainProduct": null,
+      "businessSector": null,
+      "chainValue": null,
+      "creditProposalChainValue": null,
+      "creditProgram": "QĐ.EB.016",
+      "customerSegment": "Thương mại",
+      "segment": "SME",
+      "amlOprDescription": "[]",
+      "isAdjustedCreditLimit": null,
+      "isAdjustedCreditCondition": null,
+      "isAdjustedLimitOrCreditConditionOrMarginRatio": null,
+      "assetTabNoteRichText": null,
+      "isShowFlexibleHO": false,
+      "notShowFlexibleHO": true,
+      "processFlow": "Quy trình phê duyệt đầy đủ tại HO",
+      "showAssetTabNote": false
+    },
+    "customerInfo": {
+      "enterprise": {
+        "id": 37204,
+        "name": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TỔNG HỢP HƯNG CƯỜNG",
+        "sectorLevel5Code": "46326",
+        "sectorLevel3Code": "1915",
+        "sectorLevel5": "46326-Bán buôn đường, sữa và các sản phẩm sữa, bánh kẹo và các sản phẩm chế biến từ ngũ cốc, bột, tinh bột",
+        "sectorLevel3": "Bán buôn thực phẩm, đồ uống và sản phẩm thuốc lá, thuốc lào",
+        "isNew": false,
+        "isExits": true,
+        "cif": "1143717",
+        "businessSegment": null,
+        "headOffice": "Số 82 đường Thái Phiên, phường Hồng Sơn, Thành Phố Vinh, tỉnh Nghệ An, Phường Hồng Sơn, Thành phố Vinh, Tỉnh Nghệ An",
+        "businessAddress": "Số 82 đường Thái Phiên, phường Hồng Sơn, Thành Phố Vinh, tỉnh Nghệ An, Phường Hồng Sơn, Thành phố Vinh, Tỉnh Nghệ An",
+        "businessRegistration": "2901639934",
+        "identityNumber": "2901639934",
+        "issuedBy": null,
+        "issuedPlace": null,
+        "issuedPlaceName": "Sở kế hoạch và đầu tư tỉnh Nghệ An",
+        "issuedDate": "08/10/2013",
+        "business": "V002",
+        "typeOfCustomer": "Khách hàng thông thường"
+      },
+      "legalRepresentative": {
+        "id": 0,
+        "name": "Nguyễn Thị Viết",
+        "position": null,
+        "cif": null,
+        "identityNumber": "040154001140",
+        "issuedPlaceName": "",
+        "issuedDate": null
+      },
+      "loanRepresentative": {
+        "id": 0,
+        "name": "",
+        "position": "",
+        "cif": "",
+        "identityNumber": "",
+        "issuedPlaceName": "",
+        "issuedDate": ""
+      },
+      "preScreenEval": null,
+      "blacklistInfo": {
+        "hasBlacklist": true,
+        "notHasBlacklist": false,
+        "blacklistDesc": "Danh sách cảnh báo (Chú ý khi cấp tín dụng)",
+        "lastTimeSearching": "07/08/2025 18:18",
+        "note": []
+      },
+      "blackListDataInfos": null,
+      "amlInfo": [
+        {
+          "name": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TỔNG HỢP HƯNG CƯỜNG",
+          "type": "Khách hàng",
+          "identityNumber": "2901639934",
+          "clientId": "KYC1754565488492",
+          "result": "Rủi ro thấp"
+        },
+        {
+          "name": "Nguyễn Thị Viết",
+          "type": "Cá nhân liên quan",
+          "identityNumber": "040154001140",
+          "clientId": "KYC1754565493406",
+          "result": "Rủi ro thấp"
+        },
+        {
+          "name": "Vũ Thị Hoa",
+          "type": "Cá nhân liên quan",
+          "identityNumber": "040185028856",
+          "clientId": "KYC1754565498232",
+          "result": "Rủi ro thấp"
+        },
+        {
+          "name": "Trương Thị Bích Phương",
+          "type": "Cá nhân liên quan",
+          "identityNumber": "040192034416",
+          "clientId": "KYC1754565502953",
+          "result": "Từ chối"
+        },
+        {
+          "name": "Nguyễn Văn Hưng",
+          "type": "Cá nhân liên quan",
+          "identityNumber": "040084034192",
+          "clientId": "KYC1754565507569",
+          "result": "Từ chối"
+        }
+      ],
+      "foundedYear": 2013,
+      "operatingTime": 12,
+      "typeOfCustomerKey": null
+    },
+    "bizEvaluationInfo": {
+      "biddingPackages": [
+        {
+          "businessSectorTrue": false,
+          "businessSectorFalse": true,
+          "projectName": null,
+          "value": null,
+          "duration": null,
+          "estimatedTime": null,
+          "creditDemandCode": null,
+          "creditDemandName": null
+        }
+      ],
+      "collateralRecoveryAbility": "Có khả năng thu hồi",
+      "collateralComment": [
+        {
+          "type": "text",
+          "textData": {
+            "data": "TS đảm bảo có khả năng thu hồi ",
+            "isBold": false
+          },
+          "tableData": null,
+          "imageData": null,
+          "tableHorizontal": null
+        }
+      ],
+      "guarantorAbilityCommitment": null,
+      "mltLoanIssueNewLimit": null,
+      "mltLoanAppendixUsed": null,
+      "mltLoanInvestmentTypes": null,
+      "machineAndConstructions": [],
+      "regularStaff": "10",
+      "partTimeStaff": "5",
+      "branchRepresentativeOffices": [],
+      "showRelatedPeoples": true,
+      "relatedPeoples": [
+        {
+          "cusId": 137895,
+          "relationName": "Nguyễn Văn Hưng",
+          "relationId": "040084034192",
+          "capitalPercent": "",
+          "relationDetail": "Người thân của người quản lý",
+          "relationPosition": "",
+          "ebPosition": null,
+          "relationNoted": null,
+          "mainBusiness": null,
+          "moneyLaundering": "",
+          "businessRevenue": "",
+          "relatedActivities": null,
+          "cif": null,
+          "relationPositionCode": "",
+          "cusType": "RB",
+          "identityNumber": "040084034192"
+        },
+        {
+          "cusId": 137896,
+          "relationName": "Trương Thị Bích Phương",
+          "relationId": "040192034416",
+          "capitalPercent": "",
+          "relationDetail": "Người thân của người quản lý",
+          "relationPosition": "Cá nhân liên quan khác",
+          "ebPosition": null,
+          "relationNoted": null,
+          "mainBusiness": null,
+          "moneyLaundering": "",
+          "businessRevenue": "",
+          "relatedActivities": null,
+          "cif": null,
+          "relationPositionCode": "CNLQ",
+          "cusType": "RB",
+          "identityNumber": "040192034416"
+        },
+        {
+          "cusId": 137837,
+          "relationName": "Vũ Thị Hoa",
+          "relationId": "040185028856",
+          "capitalPercent": "",
+          "relationDetail": "Kế toán trưởng",
+          "relationPosition": "Kế toán trưởng",
+          "ebPosition": null,
+          "relationNoted": null,
+          "mainBusiness": null,
+          "moneyLaundering": "",
+          "businessRevenue": "",
+          "relatedActivities": null,
+          "cif": null,
+          "relationPositionCode": "KTT",
+          "cusType": "RB",
+          "identityNumber": "040185028856"
+        }
+      ],
+      "managers": [
+        {
+          "cusId": 137836,
+          "relationName": "Nguyễn Thị Viết",
+          "relationId": "040154001140",
+          "capitalPercent": "",
+          "relationDetail": "Người đại diện PL",
+          "relationPosition": "Người đại diện PL/Chủ DNTN,Người có quyền kiểm soát",
+          "ebPosition": null,
+          "relationNoted": null,
+          "mainBusiness": null,
+          "moneyLaundering": null,
+          "businessRevenue": "",
+          "relatedActivities": null,
+          "cif": null,
+          "relationPositionCode": "DDPL,NKS",
+          "cusType": "RB",
+          "identityNumber": "040154001140"
+        }
+      ],
+      "socialEnvironmental": {
+        "isBusinessInvestmentActionTrue": false,
+        "isBusinessInvestmentActionFalse": true,
+        "businessInvestmentGroupList": {
+          "notII": true,
+          "notIII": true,
+          "isIII": false,
+          "notIV": true,
+          "notI": true,
+          "isIV": false,
+          "isOTHER": true,
+          "notOTHER": false,
+          "isII": false,
+          "isI": false
+        },
+        "isRecommendedValue": true,
+        "notRecommendedValue": false,
+        "isTermOfTheProposedCreditSmaller36Month": true,
+        "notTermOfTheProposedCreditSmaller36Month": false,
+        "conclusion": false,
+        "conclusionFalse": true,
+        "showRecommendedValue": true,
+        "note": null
+      },
+      "competingCapabilityType": null,
+      "output": null,
+      "input": null,
+      "collateralEvaluate": {
+        "fullAboutProfile": false,
+        "fullAboutProfileFalse": false,
+        "fullAboutProfileDetail": null,
+        "legalStatusOfCollateral": false,
+        "legalStatusOfCollateralFalse": false,
+        "legalStatusOfCollateralDetail": null,
+        "collateralEval": true,
+        "collateralEvalFalse": false,
+        "collateralComment": [
+          {
+            "type": "text",
+            "textData": {
+              "data": "TS đảm bảo có khả năng thu hồi ",
+              "isBold": false
+            },
+            "tableData": null,
+            "imageData": null,
+            "tableHorizontal": null
+          }
+        ]
+      },
+      "additionalSourcePay": [],
+      "consistencyAboutProfile": {
+        "categoryProfileTrue": true,
+        "categoryProfileFalse": false,
+        "categoryProfileDetail": null,
+        "categoryProfileString": "Đầy đủ",
+        "representativeSignatureTrue": true,
+        "representativeSignatureFalse": false,
+        "representativeSignatureDetail": null,
+        "representativeSignatureString": "Thống nhất",
+        "legalRepresentativeTrue": true,
+        "legalRepresentativeFalse": false,
+        "legalRepresentativeDetail": null,
+        "legalRepresentativeString": "Chấp hành",
+        "authorizedRepresentativeTrue": true,
+        "authorizedRepresentativeFalse": false,
+        "authorizedRepresentativeDetail": null,
+        "authorizedRepresentativeString": "Chấp hành",
+        "industryLicenseTrue": true,
+        "industryLicenseFalse": false,
+        "industryLicenseDetail": null,
+        "industryLicenseString": "Chấp hành",
+        "eventArisesTrue": false,
+        "eventArisesFalse": true,
+        "eventArisesDetail": null,
+        "eventArisesString": "Không phát sinh",
+        "authorityApproveCreditTrue": true,
+        "authorityApproveCreditFalse": false,
+        "authorityApproveCreditString": "Chấp hành",
+        "authorityApproveCreditDetail": null,
+        "authorityApproveCreditCollateral1": false,
+        "authorityApproveCreditCollateral2": true,
+        "authorityApproveCreditCollateral3": false,
+        "authorityApproveCreditCollateral4": false,
+        "authorityApproveCreditCollateralString1": null,
+        "authorityApproveCreditCollateralString2": null,
+        "authorityApproveCreditCollateralString3": null,
+        "authorityApproveCreditCollateralString4": null,
+        "missProfile": []
+      },
+      "otherReview": [],
+      "creditProposalByForeignCurrency": false,
+      "notCreditProposalByForeignCurrency": true,
+      "loanConditionForeignCurrency": false,
+      "notLoanConditionForeignCurrency": true,
+      "foreignCurrencyType": "",
+      "contactPersonInfos": null,
+      "businessOwner": null,
+      "businessOverview": null,
+      "opinionCi": null,
+      "wareHouse": null,
+      "hideAsset": true,
+      "asset": null,
+      "assetOnFuture": null,
+      "hasSecuredAssets": null,
+      "assetBelongThirdParty": null,
+      "historyOfFormationAndOpExp": null,
+      "mainProductionAndBusinessLine": null,
+      "businessSituation": null,
+      "creditTransaction": null,
+      "specificProduct": null,
+      "investmentCapitalStructure": null,
+      "hasLongTermLimit": false,
+      "showLongTermLimit": false,
+      "attackChecklistTrue": false,
+      "attackChecklistFalse": false,
+      "showShortTermLimit": true,
+      "loanInvestment": null,
+      "shortTermCapitalPlanInfo": {
+        "totalCost": "580,000",
+        "purchaseCosts": "522,000",
+        "managementCosts": "17,400",
+        "depreciation": "17,400",
+        "loanInterestCosts": "11,600",
+        "otherCosts": "11,600",
+        "totalRevenue": "600,000",
+        "profitBeforeTax": "20,000",
+        "corporateIncomeTax": "4,000",
+        "profitAfterTax": "16,000"
+      },
+      "bizObjectTypeDesc": null,
+      "reissued": true,
+      "adjustment": false,
+      "foundedYear": 2013,
+      "operatingTime": 12,
+      "cashFlowComplianceAssessment": true,
+      "cashFlowComplianceAssessmentFalse": false,
+      "evaluateProductCompliance": true,
+      "evaluateProductComplianceFalse": false,
+      "sameIndustryReferenceInfo": null,
+      "otherReferenceInfo": null,
+      "showCreditInMsb": true,
+      "categoryRefuse": null,
+      "transactionInformationTemp": null,
+      "rmBuMoreData": null,
+      "showHideData": {
+        "show_outputMarket": true,
+        "show_managerDes": true,
+        "show_creditProposalByForeignCurrency": false,
+        "show_inputMarket": true,
+        "show_evaluateOverdueDebtHistoryRichText": false,
+        "show_biddingPackages": false,
+        "show_relatedPeoples": true,
+        "show_historyFormation": true,
+        "show_branchRepresentativeOffices": false,
+        "show_collateralComment": true,
+        "show_occupationsMain": true,
+        "show_structuralComplexity": false,
+        "show_relatedPeoplesDes": false,
+        "show_otherOfApprovalConditionComplianceEvaluation": false,
+        "show_divisionalStructure": true,
+        "show_guarantorAbilityCommitment": false,
+        "show_collateralRecoveryAbility": true,
+        "show_outputBiddingPackageDesc": false,
+        "show_parentOrganization": false,
+        "show_mltLoanIssueNewLimit": false,
+        "show_evaluateProductComplianceRichText": true,
+        "show_inputPaymentMethod": true,
+        "show_mltLoanAppendixUsed": false,
+        "show_cashFlowComplianceAssessmentRichText": true,
+        "show_evaluateCustomersCreditTransactionHistoryRichText": false,
+        "show_managers": true,
+        "show_outputPaymentMethod": true,
+        "show_consistencyAboutProfile": true,
+        "show_foreignCurrencyDesc": false
+      },
+      "showGroupData": null
+    },
+    "creditInfo": null,
+    "signId": null,
+    "signFullName": null,
+    "creditRelationshipInfo": {
+      "previousApplication": {
+        "showPreviousApp": true,
+        "approvalDate": "19/08/2024",
+        "limitExpirationDate": "19/08/2025",
+        "previousApplicationDetailLst": [
+          {
+            "docName": "BIÊN BẢN PHÊ DUYỆT TÍN DỤNG CỦA\nHỘI ĐỒNG TÍN DỤNG NGÂN HÀNG DOANH NGHIỆP",
+            "creditLimit": "19,400",
+            "orderDisplay": 1,
+            "approvalDocNo": "539/2024/BBPDTD",
+            "submissionPurposeCode": "V002",
+            "submissionPurposeValue": "Tái cấp",
+            "adjustType": null,
+            "approvalBpmId": "VB phê duyệt ngoài Digi-Lending",
+            "adjustTypeValue": null
+          }
+        ],
+        "previousApplicationLimitLst": [
+          {
+            "limitCode": null,
+            "limitName": "Hạn mức cơ sở Main 1",
+            "duration": 12,
+            "approvalLimit": "15,400",
+            "remainingLimit": "13,400",
+            "orderDisplay": 1
+          },
+          {
+            "limitCode": null,
+            "limitName": "Hạn mức Main 3",
+            "duration": 12,
+            "approvalLimit": "4,000",
+            "remainingLimit": "4,000",
+            "orderDisplay": 2
+          }
+        ],
+        "approvalDocNoWithAdjustNone": "",
+        "approvalDocNoWithAdjustPartialFull": "",
+        "reissuedCreditRelationship": false
+      },
+      "cicSynthesisCustomer": [
+        {
+          "customerId": 37204,
+          "customerName": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TỔNG HỢP HƯNG CƯỜNG",
+          "subject": "Khách hàng",
+          "identifierCode": "2901639934",
+          "limitAtMsb": "",
+          "debtAtMsbVnd": "",
+          "debtAtMsbUsd": "",
+          "debtAtOtherInstitutionsVnd": "",
+          "debtAtOtherInstitutionsUsd": "",
+          "highestDebtGroup": "1",
+          "attentionDebt12": "-",
+          "badDebt36": "-",
+          "debtVamc": null,
+          "debtAtMsbAndOtherInstitutionsVnd": "42,900",
+          "debtAtMsbAndOtherInstitutionsUsd": "0",
+          "relatedActivities": null,
+          "activitiesRelationship": null,
+          "relationDetail": null,
+          "complianceAssessmentAtMSB": null,
+          "cif": null,
+          "isAssetOwner": false,
+          "notAssetOwner": true
+        }
+      ],
+      "cicSynthesis": [
+        {
+          "customerId": 137895,
+          "customerName": "Nguyễn Văn Hưng",
+          "subject": "Cá nhân liên quan",
+          "identifierCode": "040084034192",
+          "limitAtMsb": "",
+          "debtAtMsbVnd": "",
+          "debtAtMsbUsd": "",
+          "debtAtOtherInstitutionsVnd": "",
+          "debtAtOtherInstitutionsUsd": "",
+          "highestDebtGroup": "1",
+          "attentionDebt12": "-",
+          "badDebt36": "-",
+          "debtVamc": null,
+          "debtAtMsbAndOtherInstitutionsVnd": "1,000",
+          "debtAtMsbAndOtherInstitutionsUsd": "0",
+          "relatedActivities": null,
+          "activitiesRelationship": null,
+          "relationDetail": "Người thân của người quản lý",
+          "complianceAssessmentAtMSB": null,
+          "cif": null,
+          "isAssetOwner": true,
+          "notAssetOwner": false
+        },
+        {
+          "customerId": 137896,
+          "customerName": "Trương Thị Bích Phương",
+          "subject": "Cá nhân liên quan",
+          "identifierCode": "040192034416",
+          "limitAtMsb": "",
+          "debtAtMsbVnd": "",
+          "debtAtMsbUsd": "",
+          "debtAtOtherInstitutionsVnd": "",
+          "debtAtOtherInstitutionsUsd": "",
+          "highestDebtGroup": "1",
+          "attentionDebt12": "-",
+          "badDebt36": "-",
+          "debtVamc": null,
+          "debtAtMsbAndOtherInstitutionsVnd": "",
+          "debtAtMsbAndOtherInstitutionsUsd": "",
+          "relatedActivities": null,
+          "activitiesRelationship": null,
+          "relationDetail": "Người thân của người quản lý",
+          "complianceAssessmentAtMSB": null,
+          "cif": null,
+          "isAssetOwner": true,
+          "notAssetOwner": false
+        },
+        {
+          "customerId": 137836,
+          "customerName": "Nguyễn Thị Viết",
+          "subject": "Cá nhân liên quan",
+          "identifierCode": "040154001140",
+          "limitAtMsb": "",
+          "debtAtMsbVnd": "",
+          "debtAtMsbUsd": "",
+          "debtAtOtherInstitutionsVnd": "",
+          "debtAtOtherInstitutionsUsd": "",
+          "highestDebtGroup": null,
+          "attentionDebt12": "-",
+          "badDebt36": "-",
+          "debtVamc": null,
+          "debtAtMsbAndOtherInstitutionsVnd": "",
+          "debtAtMsbAndOtherInstitutionsUsd": "",
+          "relatedActivities": null,
+          "activitiesRelationship": null,
+          "relationDetail": "Người đại diện PL",
+          "complianceAssessmentAtMSB": null,
+          "cif": null,
+          "isAssetOwner": true,
+          "notAssetOwner": false
+        },
+        {
+          "customerId": 137837,
+          "customerName": "Vũ Thị Hoa",
+          "subject": "Cá nhân liên quan",
+          "identifierCode": "040185028856",
+          "limitAtMsb": "",
+          "debtAtMsbVnd": "",
+          "debtAtMsbUsd": "",
+          "debtAtOtherInstitutionsVnd": "",
+          "debtAtOtherInstitutionsUsd": "",
+          "highestDebtGroup": "1",
+          "attentionDebt12": "-",
+          "badDebt36": "-",
+          "debtVamc": null,
+          "debtAtMsbAndOtherInstitutionsVnd": "1,038",
+          "debtAtMsbAndOtherInstitutionsUsd": "0",
+          "relatedActivities": null,
+          "activitiesRelationship": null,
+          "relationDetail": "Kế toán trưởng",
+          "complianceAssessmentAtMSB": null,
+          "cif": null,
+          "isAssetOwner": false,
+          "notAssetOwner": true
+        }
+      ],
+      "cicCollateral": [
+        {
+          "cicCode": "4000008780",
+          "statusCode": 6,
+          "statusDescription": "Đã nhận trả lời - có đủ thông tin",
+          "creditInstitutionName": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+          "loanCollateralType": "01",
+          "loanCollateralTypeDesc": "Quyền sử dụng đất và tài sản gắn liền với đất",
+          "amountVnd": "0"
+        },
+        {
+          "cicCode": "4000008780",
+          "statusCode": 6,
+          "statusDescription": "Đã nhận trả lời - có đủ thông tin",
+          "creditInstitutionName": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+          "loanCollateralType": "01",
+          "loanCollateralTypeDesc": "Quyền sử dụng đất và tài sản gắn liền với đất",
+          "amountVnd": "0"
+        }
+      ],
+      "institutionsCreditLimits": [],
+      "longTermLimitTotal": "0",
+      "shortTermLimitTotal": "0",
+      "evaluation": {
+        "msbCoreCapital": "26,000,000",
+        "proposalLimit": "17,400",
+        "affiliateLimit": "0",
+        "totalLimitThreshold": "17,400",
+        "thresholdExceed": "N",
+        "exceedStandards": false,
+        "notExceedStandards": true,
+        "creditLimitAssessment": "V02",
+        "exceedCreditLimit": false,
+        "notExceedCreditLimit": true
+      },
+      "businessOwner": [
+        {
+          "cicCustomerList": null,
+          "customerName": "Nguyễn Thị Viết",
+          "position": "người có quyền kiểm soát",
+          "showCicList": false,
+          "hideCicList": true,
+          "attentionDebt12": false,
+          "notAttentionDebt12": true,
+          "attentionDebt12Msg": null,
+          "badDebt36": false,
+          "notBadDebt36": true,
+          "showCicData": false,
+          "notShowCicData": true,
+          "badDebt36Msg": null,
+          "showOffBalanceSheetInfo": false,
+          "hideOffBalanceSheetInfo": true,
+          "offBalanceSheetDataInfos": null
+        }
+      ],
+      "legalRepresentative": [],
+      "mainCustomer": {
+        "cicCustomerList": [
+          {
+            "index": null,
+            "debtType": null,
+            "cicCode": "4000008780",
+            "bankCode": null,
+            "vnd": null,
+            "usd": null,
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "index": "1",
+            "debtType": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+            "cicCode": null,
+            "bankCode": "40204002",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "x",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 19/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "2",
+            "debtType": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+            "cicCode": null,
+            "bankCode": "40302001",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "x",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 21/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "3",
+            "debtType": "Ngân hàng TMCP Đông Nam Á - Chi nhánh tỉnh Nghệ An",
+            "cicCode": null,
+            "bankCode": "40317001",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 28/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "4",
+            "debtType": "Ngân hàng TMCP Tiên Phong - Chi nhánh tỉnh Nghệ An",
+            "cicCode": null,
+            "bankCode": "40358001",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 16/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "5",
+            "debtType": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh tỉnh Nghệ An",
+            "cicCode": null,
+            "bankCode": "40309001",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 24/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "6",
+            "debtType": "Ngân hàng TMCP Quân Đội - Chi nhánh tỉnh Nghệ An",
+            "cicCode": null,
+            "bankCode": "40311001",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "index": "",
+            "debtType": " Ngày báo cáo gần nhất: 25/07/2025",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "",
+            "usd": "",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Dư nợ cho vay ngắn hạn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": " Dư nợ đủ tiêu chuẩn",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "Tổng cộng",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          },
+          {
+            "index": "",
+            "debtType": "TỔNG CỘNG",
+            "cicCode": null,
+            "bankCode": "",
+            "vnd": "42,900",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": ""
+          }
+        ],
+        "customerName": null,
+        "position": "khách hàng",
+        "showCicList": true,
+        "hideCicList": false,
+        "attentionDebt12": false,
+        "notAttentionDebt12": true,
+        "attentionDebt12Msg": null,
+        "badDebt36": false,
+        "notBadDebt36": true,
+        "showCicData": true,
+        "notShowCicData": false,
+        "badDebt36Msg": null,
+        "showOffBalanceSheetInfo": false,
+        "hideOffBalanceSheetInfo": false,
+        "offBalanceSheetDataInfos": null
+      },
+      "totalBalances": null,
+      "offBalanceSheetBalances": [],
+      "offBalanceSheetBalancesTotal": "0",
+      "purposeType": "Tái cấp",
+      "showHideData": {
+        "showCicSynthesis": true,
+        "hideCicSynthesis": false,
+        "showCicSynthesisCus": true,
+        "hideCicSynthesisCus": false,
+        "showInstitutions": false,
+        "hideInstitutions": true,
+        "showOffBalance": false,
+        "hideOffBalance": true,
+        "showCusDebitDetail": true,
+        "hideCusDebitDetail": false,
+        "showMonth12DebtInfo": true,
+        "hideMonth12DebtInfo": false,
+        "showBondCompanyInfo": false,
+        "hideBondCompanyInfo": true,
+        "showOffBalanceSheetInfo": false,
+        "hideOffBalanceSheetInfo": true
+      },
+      "cicDataInfo": {
+        "cusDebitDetail": [
+          {
+            "cicCode": "4000008780",
+            "cicCreditInstitutionByCicCodes": [
+              {
+                "index": 1,
+                "bankName": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+                "bankCode": "40302001",
+                "releaseDate": "21/07/2025",
+                "totalVND": "17,400",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "17,400",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "17,400",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": true,
+                "notHasCollateral": false
+              },
+              {
+                "index": 2,
+                "bankName": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh tỉnh Nghệ An",
+                "bankCode": "40309001",
+                "releaseDate": "24/07/2025",
+                "totalVND": "3,000",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "3,000",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "3,000",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": false,
+                "notHasCollateral": true
+              },
+              {
+                "index": 3,
+                "bankName": "Ngân hàng TMCP Tiên Phong - Chi nhánh tỉnh Nghệ An",
+                "bankCode": "40358001",
+                "releaseDate": "16/07/2025",
+                "totalVND": "3,000",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "3,000",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "3,000",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": false,
+                "notHasCollateral": true
+              },
+              {
+                "index": 4,
+                "bankName": "Ngân hàng TMCP Quân Đội - Chi nhánh tỉnh Nghệ An",
+                "bankCode": "40311001",
+                "releaseDate": "25/07/2025",
+                "totalVND": "6,000",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "6,000",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "6,000",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": false,
+                "notHasCollateral": true
+              },
+              {
+                "index": 5,
+                "bankName": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+                "bankCode": "40204002",
+                "releaseDate": "19/07/2025",
+                "totalVND": "8,500",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "8,500",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "8,500",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": true,
+                "notHasCollateral": false
+              },
+              {
+                "index": 6,
+                "bankName": "Ngân hàng TMCP Đông Nam Á - Chi nhánh tỉnh Nghệ An",
+                "bankCode": "40317001",
+                "releaseDate": "28/07/2025",
+                "totalVND": "5,000",
+                "totalUSD": "0",
+                "debtInfoList": [
+                  {
+                    "debtType": " Dư nợ cho vay ngắn hạn",
+                    "debtVND": "5,000",
+                    "debtUSD": "0"
+                  },
+                  {
+                    "debtType": " Dư nợ đủ tiêu chuẩn",
+                    "debtVND": "5,000",
+                    "debtUSD": "0"
+                  }
+                ],
+                "hasCollateral": false,
+                "notHasCollateral": true
+              }
+            ],
+            "totalVND": "42,900",
+            "totalUSD": "0"
+          }
+        ],
+        "cicCreditInfos": [
+          {
+            "cicCode": "4000008780",
+            "bankName": null,
+            "vnd": "42,900",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": "x",
+            "notHasAsset": ""
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "17,400",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh tỉnh Nghệ An",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng TMCP Tiên Phong - Chi nhánh tỉnh Nghệ An",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "3,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng TMCP Quân Đội - Chi nhánh tỉnh Nghệ An",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "6,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": "x",
+            "notHasAsset": ""
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "8,500",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": "Ngân hàng TMCP Đông Nam Á - Chi nhánh tỉnh Nghệ An",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": "",
+            "notHasAsset": "x"
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ cho vay ngắn hạn",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          },
+          {
+            "cicCode": null,
+            "bankName": " Dư nợ đủ tiêu chuẩn",
+            "vnd": "5,000",
+            "usd": "0",
+            "hasAsset": null,
+            "notHasAsset": null
+          }
+        ],
+        "month12DebtInfo": [
+          {
+            "cicCode": "4000008780",
+            "monthDebtDetailByCicCodes": [
+              {
+                "bankName": "Ngân hàng TMCP Tiên Phong - Chi nhánh tỉnh Nghệ An",
+                "ngaySL": null,
+                "t1": "3,000",
+                "t2": "3,000",
+                "t3": "3,000",
+                "t4": "3,000",
+                "t5": "3,000",
+                "t6": "3,000",
+                "t7": "3,000",
+                "t8": "3,000",
+                "t9": "3,000",
+                "t10": "3,000",
+                "t11": "3,000",
+                "t12": "3,000"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Bắc Á - Chi nhánh Kim Liên",
+                "ngaySL": null,
+                "t1": "8,773",
+                "t2": "0",
+                "t3": "0",
+                "t4": "0",
+                "t5": "0",
+                "t6": "0",
+                "t7": "0",
+                "t8": "0",
+                "t9": "0",
+                "t10": "0",
+                "t11": "0",
+                "t12": "0"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+                "ngaySL": null,
+                "t1": "17,400",
+                "t2": "17,400",
+                "t3": "17,400",
+                "t4": "17,400",
+                "t5": "17,400",
+                "t6": "17,400",
+                "t7": "17,400",
+                "t8": "17,400",
+                "t9": "17,400",
+                "t10": "17,400",
+                "t11": "17,400",
+                "t12": "17,400"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Đông Nam Á - Chi nhánh tỉnh Nghệ An",
+                "ngaySL": null,
+                "t1": "3,000",
+                "t2": "3,000",
+                "t3": "3,000",
+                "t4": "3,000",
+                "t5": "3,000",
+                "t6": "5,000",
+                "t7": "5,000",
+                "t8": "5,000",
+                "t9": "5,000",
+                "t10": "5,000",
+                "t11": "5,000",
+                "t12": "5,000"
+              },
+              {
+                "bankName": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+                "ngaySL": null,
+                "t1": "8,500",
+                "t2": "8,500",
+                "t3": "8,500",
+                "t4": "8,500",
+                "t5": "8,500",
+                "t6": "8,500",
+                "t7": "8,500",
+                "t8": "8,500",
+                "t9": "8,500",
+                "t10": "8,500",
+                "t11": "8,500",
+                "t12": "8,470"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Quân Đội - Chi nhánh tỉnh Nghệ An",
+                "ngaySL": null,
+                "t1": "0",
+                "t2": "0",
+                "t3": "0",
+                "t4": "0",
+                "t5": "0",
+                "t6": "0",
+                "t7": "0",
+                "t8": "0",
+                "t9": "6,000",
+                "t10": "6,000",
+                "t11": "6,000",
+                "t12": "6,000"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Công Thương Việt Nam - Chi nhánh Cửa Lò",
+                "ngaySL": null,
+                "t1": "1,000",
+                "t2": "1,000",
+                "t3": "1,000",
+                "t4": "0",
+                "t5": "0",
+                "t6": "0",
+                "t7": "0",
+                "t8": "0",
+                "t9": "0",
+                "t10": "0",
+                "t11": "0",
+                "t12": "0"
+              },
+              {
+                "bankName": "Ngân hàng TMCP Việt Nam Thịnh Vượng - Chi nhánh tỉnh Nghệ An",
+                "ngaySL": null,
+                "t1": "3,000",
+                "t2": "3,000",
+                "t3": "3,000",
+                "t4": "3,000",
+                "t5": "3,000",
+                "t6": "3,000",
+                "t7": "3,000",
+                "t8": "3,000",
+                "t9": "3,000",
+                "t10": "3,000",
+                "t11": "3,000",
+                "t12": "3,000"
+              }
+            ],
+            "totalT1": "44,673",
+            "totalT2": "35,900",
+            "totalT3": "35,900",
+            "totalT4": "34,900",
+            "totalT5": "34,900",
+            "totalT6": "36,900",
+            "totalT7": "36,900",
+            "totalT8": "36,900",
+            "totalT9": "42,900",
+            "totalT10": "42,900",
+            "totalT11": "42,900",
+            "totalT12": "42,870"
+          }
+        ],
+        "month12List": {
+          "t1": "7/2024",
+          "t2": "8/2024",
+          "t3": "9/2024",
+          "t4": "10/2024",
+          "t5": "11/2024",
+          "t6": "12/2024",
+          "t7": "1/2025",
+          "t8": "2/2025",
+          "t9": "3/2025",
+          "t10": "4/2025",
+          "t11": "5/2025",
+          "t12": "6/2025"
+        },
+        "bondCompanyInfo": [],
+        "offBalanceSheetInfo": []
+      }
+    },
+    "creditRatingInfo": {
+      "showPreRating": true,
+      "showCurrentRating": true,
+      "preRating": {
+        "id": null,
+        "showRank": null,
+        "hideRank": null,
+        "rank": null
+      },
+      "current": {
+        "id": "1196481",
+        "showRank": false,
+        "hideRank": true,
+        "rank": null
+      },
+      "vatRevenue": "506,768",
+      "riskSectorGroup": "Rủi ro trung bình"
+    },
+    "financialInfo": {
+      "id": null,
+      "vatRevenue": "506,768",
+      "actualCapital": "9,900",
+      "registeredCapital": "9,900",
+      "upToDate": "01/08/2025",
+      "selectedKey": {
+        "showReceivable": false,
+        "showBalance": false,
+        "showAsset": false,
+        "showOperational": false,
+        "showDebt": false,
+        "showIncome": false,
+        "showInventory": false,
+        "showLiquidity": false,
+        "showPayable": false,
+        "showBorrowing": false,
+        "showRevenue": false,
+        "showOther": false
+      },
+      "generalTargetInfos": null,
+      "yearN1Data": null,
+      "financialYearlyInfo": null
+    },
+    "rmBuMoreData": null,
+    "confirmAndEvaluate": null,
+    "collateralData": {
+      "collateralDataItems": [
+        {
+          "index": "1",
+          "assetType": "Nhà ở, đất ở khác",
+          "assetName": "Bất động sản là Thửa đất số 48 , tờ bản đồ số 09 , tại , Phường Hồng Sơn, Thành phố Vinh, Tỉnh Nghệ An theo Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất số CH442452 , thuộc sở hữu của Nguyễn Văn Hưng và Trương Thị Bích Phương",
+          "assetNew": "Hiện hữu",
+          "assetOwnerName": "Nguyễn Văn Hưng, Trương Thị Bích Phương",
+          "phoneNumber": null,
+          "relationship": "Người thân của người quản lý",
+          "currentLegalStatus": "Đã thế chấp",
+          "checkBlackListToHDRR008": "Không thuộc danh sách",
+          "expectedAssetValue": "7,290",
+          "expectedAssetValueCal": 7290.0,
+          "ltv": "80",
+          "ltvCal": 80.0,
+          "k": "5,832",
+          "kcal": 5832.00
+        },
+        {
+          "index": "2",
+          "assetType": "Nhà ở, đất ở khác",
+          "assetName": "Bất động sản là Thửa đất số 342 , tờ bản đồ số 03 , tại , Khối Quang Trung, phường Vinh Tân, Thành phố Vinh, Tỉnh Nghệ An theo Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất số DO 064858 do Chi nhánh văn phòng đăng ký đất đai thành phố Vinh cấp ngày 19/03/2024 , thuộc sở hữu của Nguyễn Thị Viết ",
+          "assetNew": "Hiện hữu",
+          "assetOwnerName": "Nguyễn Thị Viết",
+          "phoneNumber": null,
+          "relationship": "Người đại diện PL",
+          "currentLegalStatus": "Đã thế chấp",
+          "checkBlackListToHDRR008": "Không thuộc danh sách",
+          "expectedAssetValue": "6,674",
+          "expectedAssetValueCal": 6674.0,
+          "ltv": "75",
+          "ltvCal": 75.0,
+          "k": "5,005.5",
+          "kcal": 5005.50
+        }
+      ]
+    },
+    "collateralGeneralData": {
+      "hidingCollateralGeneralData": false,
+      "collateralGeneralDataItems": [],
+      "collateralTotalValue": {
+        "assetValueTotal": "0",
+        "assetValueTotalCal": 0,
+        "ltvTotal": null,
+        "ltvTotalCal": null,
+        "allocationAssetKTotal": "0",
+        "allocationAssetKTotalCal": 0
+      }
+    },
+    "limitCustomerCollateral": {
+      "hasBlacklist": false,
+      "noneHasBlacklist": true,
+      "collateralBlacklistDesc": "",
+      "collateralWithdrawn": {
+        "hidingCollateralWithdrawn": false,
+        "collateralDataItems": [],
+        "collateralTotalValue": {
+          "assetValueTotal": "0",
+          "assetValueTotalCal": 0,
+          "ltvTotal": "0",
+          "ltvTotalCal": 0.0,
+          "allocationAssetKTotal": "0",
+          "allocationAssetKTotalCal": 0
+        }
+      },
+      "collateralProposal": {
+        "hideCollateral": true,
+        "collateralDataItems": [
+          {
+            "index": "1",
+            "assetType": "Nhà ở, đất ở khác",
+            "assetName": "Bất động sản là Thửa đất số 48 , tờ bản đồ số 09 , tại , Phường Hồng Sơn, Thành phố Vinh, Tỉnh Nghệ An theo Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất số CH442452 , thuộc sở hữu của Nguyễn Văn Hưng và Trương Thị Bích Phương",
+            "assetNew": "Hiện hữu",
+            "assetOwnerName": "Nguyễn Văn Hưng, Trương Thị Bích Phương",
+            "phoneNumber": null,
+            "relationship": "Người thân của người quản lý",
+            "currentLegalStatus": null,
+            "checkBlackListToHDRR008": null,
+            "expectedAssetValue": "7,290",
+            "expectedAssetValueCal": 7290.0,
+            "ltv": "80",
+            "ltvCal": 80.0,
+            "k": "5,832",
+            "kcal": 5832.00
+          },
+          {
+            "index": "2",
+            "assetType": "Nhà ở, đất ở khác",
+            "assetName": "Bất động sản là Thửa đất số 342 , tờ bản đồ số 03 , tại , Khối Quang Trung, phường Vinh Tân, Thành phố Vinh, Tỉnh Nghệ An theo Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất số DO 064858 do Chi nhánh văn phòng đăng ký đất đai thành phố Vinh cấp ngày 19/03/2024 , thuộc sở hữu của Nguyễn Thị Viết ",
+            "assetNew": "Hiện hữu",
+            "assetOwnerName": "Nguyễn Thị Viết",
+            "phoneNumber": null,
+            "relationship": "Người đại diện PL",
+            "currentLegalStatus": null,
+            "checkBlackListToHDRR008": null,
+            "expectedAssetValue": "6,674",
+            "expectedAssetValueCal": 6674.0,
+            "ltv": "75",
+            "ltvCal": 75.0,
+            "k": "5,005.5",
+            "kcal": 5005.50
+          }
+        ],
+        "collateralTotalValue": {
+          "assetValueTotal": "13,964",
+          "assetValueTotalCal": 13964.0,
+          "ltvTotal": "155",
+          "ltvTotalCal": 155.0,
+          "allocationAssetKTotal": "10,837.5",
+          "allocationAssetKTotalCal": 10837.50
+        }
+      },
+      "collateralAdjustment": {
+        "hideCollateral": false,
+        "collateralDataItems": [],
+        "collateralTotalValue": {
+          "assetValueTotal": "0",
+          "assetValueTotalCal": 0,
+          "ltvTotal": "0",
+          "ltvTotalCal": 0.0,
+          "allocationAssetKTotal": "0",
+          "allocationAssetKTotalCal": 0
+        }
+      },
+      "collateralGeneralData": {
+        "hidingCollateralGeneralData": false,
+        "collateralGeneralDataItems": [],
+        "collateralTotalValue": {
+          "assetValueTotal": "0",
+          "assetValueTotalCal": 0,
+          "ltvTotal": null,
+          "ltvTotalCal": null,
+          "allocationAssetKTotal": "0",
+          "allocationAssetKTotalCal": 0
+        }
+      },
+      "visible": true
+    },
+    "collateralCICData": {
+      "hideCollateralCIC": true,
+      "showTextCollateralCIC": false,
+      "totalAssetValue": "22,964",
+      "totalAssetValueCal": 22964.0,
+      "collateralCICDataItems": [
+        {
+          "index": 1,
+          "creditInstitutionName": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam - Chi nhánh Nam Nghệ An",
+          "loanCollateralType": "Quyền sử dụng đất và tài sản gắn liền với đất",
+          "assetValue": "9,000",
+          "assetValueCal": 9000.0
+        },
+        {
+          "index": 2,
+          "creditInstitutionName": "Ngân hàng TMCP Hàng Hải Việt Nam - Chi nhánh tỉnh Nghệ An",
+          "loanCollateralType": "Quyền sử dụng đất và tài sản gắn liền với đất",
+          "assetValue": "13,964",
+          "assetValueCal": 13964.0
+        }
+      ]
+    },
+    "criteriaSuiteInfo": {
+      "preScreen": {
+        "yesCheckbox": false,
+        "noCheckbox": true,
+        "criteriaNotPassed": "Blacklist;Blacklist TSBĐ",
+        "preScreenExpYet": "Có"
+      },
+      "evaluationCriteria": null,
+      "criteriaSpecialProductRm": {
+        "sponsorOutputContract": {
+          "sponsorOutputContract": null,
+          "showSponsorOutputContract": false,
+          "listCriteriaSponsorOutputContract": null
+        },
+        "sponsorReceivable": {
+          "sponsorReceivables": null,
+          "showSponsorReceivables": false,
+          "listCriteriaSponsorReceivables": null
+        },
+        "sponsorExportBeforeDelivery": {
+          "sponsorExportBeforeDelivery": null,
+          "showSponsorExportBeforeDelivery": false,
+          "listCriteriaSponsorExportBeforeDelivery": null
+        }
+      },
+      "criteriaSpecialProduct039Rm": {
+        "showSponsorOutput039": false,
+        "customerEvaluation": {
+          "showCustomerEvaluation": false,
+          "customerName": null,
+          "customerId": null,
+          "listCriteria": null
+        },
+        "buyerEvaluation": {
+          "showBuyerEvaluation": false,
+          "autoBuyerEvaluation": {
+            "showAutoBuyerEvaluation": false,
+            "listAutoBuyer": null
+          },
+          "exportBuyerEvaluation": {
+            "showExportBuyerEvaluation": false,
+            "listExportBuyer": null
+          },
+          "fdiBuyerEvaluation": {
+            "showFdiBuyerEvaluation": false,
+            "listFdiBuyer": null
+          },
+          "domesticBuyerEvaluation": {
+            "showDomesticBuyerEvaluation": false,
+            "listDomesticBuyer": null
+          },
+          "exportAgencyBuyerEvaluation": {
+            "showExportAgencyBuyerEvaluation": false,
+            "listExportAgencyBuyer": null
+          },
+          "exportRelatedAgencyBuyerEvaluation": {
+            "showExportRelatedAgencyBuyerEvaluation": false,
+            "listExportRelatedAgencyBuyer": null
+          }
+        },
+        "specificCashFlowEvaluation": {
+          "showSponsorSpecificCashFlow": false,
+          "customerName": null,
+          "customerId": null,
+          "listCriteria": null
+        },
+        "sponsorOutputMethodEvaluation": {
+          "showSponsorOutputMethodEvaluation": false,
+          "listMethod": null
+        },
+        "sponsorOutputMethodGroupEvaluation": {
+          "showSponsorOutputMethodGroupEvaluation": false,
+          "listMethodGroup": null
+        },
+        "otherEvaluation": null
+      },
+      "showCriteriaSpecialProductRM": false,
+      "criteriaSpecialProductCa": {
+        "sponsorOutputContract": {
+          "sponsorOutputContract": null,
+          "showSponsorOutputContract": false,
+          "listCriteriaSponsorOutputContract": null
+        },
+        "sponsorReceivable": {
+          "sponsorReceivables": null,
+          "showSponsorReceivables": false,
+          "listCriteriaSponsorReceivables": null
+        },
+        "sponsorExportBeforeDelivery": {
+          "sponsorExportBeforeDelivery": null,
+          "showSponsorExportBeforeDelivery": false,
+          "listCriteriaSponsorExportBeforeDelivery": null
+        }
+      },
+      "showCriteriaSpecialProductCA": false,
+      "criteriaSpecialProduct039Ca": {
+        "showSponsorOutput039": false,
+        "customerEvaluation": {
+          "showCustomerEvaluation": false,
+          "customerName": null,
+          "customerId": null,
+          "listCriteria": null
+        },
+        "buyerEvaluation": {
+          "showBuyerEvaluation": false,
+          "autoBuyerEvaluation": {
+            "showAutoBuyerEvaluation": false,
+            "listAutoBuyer": null
+          },
+          "exportBuyerEvaluation": {
+            "showExportBuyerEvaluation": false,
+            "listExportBuyer": null
+          },
+          "fdiBuyerEvaluation": {
+            "showFdiBuyerEvaluation": false,
+            "listFdiBuyer": null
+          },
+          "domesticBuyerEvaluation": {
+            "showDomesticBuyerEvaluation": false,
+            "listDomesticBuyer": null
+          },
+          "exportAgencyBuyerEvaluation": {
+            "showExportAgencyBuyerEvaluation": false,
+            "listExportAgencyBuyer": null
+          },
+          "exportRelatedAgencyBuyerEvaluation": {
+            "showExportRelatedAgencyBuyerEvaluation": false,
+            "listExportRelatedAgencyBuyer": null
+          }
+        },
+        "specificCashFlowEvaluation": {
+          "showSponsorSpecificCashFlow": false,
+          "customerName": null,
+          "customerId": null,
+          "listCriteria": null
+        },
+        "sponsorOutputMethodEvaluation": {
+          "showSponsorOutputMethodEvaluation": false,
+          "listMethod": null
+        },
+        "sponsorOutputMethodGroupEvaluation": {
+          "showSponsorOutputMethodGroupEvaluation": false,
+          "listMethodGroup": null
+        },
+        "otherEvaluation": null
+      },
+      "creditTransactionHistoryCustomerBehavior": {
+        "reissuedCIC": true,
+        "evaluationLimitReissue": {
+          "yesCheckbox": false,
+          "noCheckbox": true
+        },
+        "evaluationSpecialProductDetails": null,
+        "evaluationCriteriaRm": null,
+        "evaluationCreditTransactionHistory": {
+          "overdueDebt": "${evaluateOverdueDebtHistoryRichText}",
+          "evaluationCreditTransactionHistories": [
+            {
+              "titleName": "Đánh giá tuân thủ dòng tiền",
+              "compliance": {
+                "suiteName": "Tuân thủ",
+                "checkbox": true
+              },
+              "nonCompliance": {
+                "suiteName": "Không tuân thủ",
+                "checkbox": false
+              },
+              "description": "${cashFlowComplianceAssessmentRichText}"
+            },
+            {
+              "titleName": "Đánh giá tính tuân thủ sản phẩm đặc thù",
+              "compliance": {
+                "suiteName": "Tuân thủ",
+                "checkbox": true
+              },
+              "nonCompliance": {
+                "suiteName": "Không tuân thủ",
+                "checkbox": false
+              },
+              "description": "${evaluateProductComplianceRichText}"
+            }
+          ]
+        }
+      },
+      "preScreenBu": {
+        "yesCheckbox": false,
+        "noCheckbox": true,
+        "criteriaNotPassed": "Blacklist;Blacklist TSBĐ",
+        "preScreenExpYet": "Có"
+      },
+      "conditionScreenPotentialCustomers": null,
+      "showConditionScreenPotentialCustomer": false,
+      "conditionNewProductLevels": null,
+      "showFlexibleMortgages": false,
+      "flexibleMortgages": null,
+      "assessmentOfConditionsAccordingCreditProgram": {
+        "showAssessmentOfConditionsAccordingCreditProgram": true,
+        "assessmentOfConditionsAccordingCreditPrograms": [
+          {
+            "criteria": "Xếp hạng của Khách hàng trên hệ thống chấm điểm của MSB",
+            "standardCriteria": "A, B, C, D",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 1
+          },
+          {
+            "criteria": "Cân đối thanh khoản",
+            "standardCriteria": "Tiền tài khoản + Hợp đồng tiền gửi + Hàng tồn kho + Phải thu khách hàng + Trả trước người bán – Phải trả người bán – Người mua trả trước – Vay nợ ngắn hạn >0",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 2
+          },
+          {
+            "criteria": "Vốn chủ sở hữu theo BCTC ",
+            "standardCriteria": "Vốn chủ sở hữu theo BCTC năm tài chính gần nhất > 0",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 3
+          },
+          {
+            "criteria": "Lợi nhuận sau thuế năm tài chính gần nhất",
+            "standardCriteria": ">0",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 4
+          },
+          {
+            "criteria": "Dư nợ ngắn hạn",
+            "standardCriteria": "Tỷ lệ dư nợ ngắn hạn bình quân (hoặc dư nợ bình quân) 12 tháng gần nhất theo CIC/ Doanh thu: theo thông báo từng thời kỳ",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 5
+          },
+          {
+            "criteria": "Lịch sử quan hệ tín dụng",
+            "standardCriteria": "Khách hàng đang có hạn mức tín dụng tại ngân hàng khác",
+            "processorInfo": "Thỏa mãn",
+            "conclusion": "Thỏa mãn",
+            "order": 6
+          },
+          {
+            "criteria": "Số lượng Tổ chức tín dụng KH sử dụng",
+            "standardCriteria": "Khách hàng có hạn mức tín dụng hoàn toàn không tài sản bảo đảm tối đa 02 tổ chức tín dụng (bao gồm cả MSB). Điều kiện này áp dụng đánh giá tại thời điểm cấp hạn mức hoặc kích hoạt hạn mức tín dụng, giao GĐ ĐVKD chịu trách nhiệm kiểm soát khi đánh giá tại thời điểm kích hoạt hạn mức tín dụng",
+            "processorInfo": "Không thỏa mãn",
+            "conclusion": "Không thỏa mãn",
+            "order": 7
+          }
+        ],
+        "suiteName": "Đánh giá điều kiện cấp tín dụng_Main 3",
+        "suiteNote": ""
+      },
+      "showCreditCriteria": true,
+      "creditCriteriaList": [
+        {
+          "criteriaSuiteName": "Đánh giá điều kiện cấp tín dụng_Main 3",
+          "criteriaSuiteNote": "",
+          "criteriaList": [
+            {
+              "criteria": "Xếp hạng của Khách hàng trên hệ thống chấm điểm của MSB",
+              "standardCriteria": "A, B, C, D",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 1
+            },
+            {
+              "criteria": "Cân đối thanh khoản",
+              "standardCriteria": "Tiền tài khoản + Hợp đồng tiền gửi + Hàng tồn kho + Phải thu khách hàng + Trả trước người bán – Phải trả người bán – Người mua trả trước – Vay nợ ngắn hạn >0",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 2
+            },
+            {
+              "criteria": "Vốn chủ sở hữu theo BCTC ",
+              "standardCriteria": "Vốn chủ sở hữu theo BCTC năm tài chính gần nhất > 0",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 3
+            },
+            {
+              "criteria": "Lợi nhuận sau thuế năm tài chính gần nhất",
+              "standardCriteria": ">0",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 4
+            },
+            {
+              "criteria": "Dư nợ ngắn hạn",
+              "standardCriteria": "Tỷ lệ dư nợ ngắn hạn bình quân (hoặc dư nợ bình quân) 12 tháng gần nhất theo CIC/ Doanh thu: theo thông báo từng thời kỳ",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 5
+            },
+            {
+              "criteria": "Lịch sử quan hệ tín dụng",
+              "standardCriteria": "Khách hàng đang có hạn mức tín dụng tại ngân hàng khác",
+              "processorInfo": "Thỏa mãn",
+              "conclusion": "Thỏa mãn",
+              "order": 6
+            },
+            {
+              "criteria": "Số lượng Tổ chức tín dụng KH sử dụng",
+              "standardCriteria": "Khách hàng có hạn mức tín dụng hoàn toàn không tài sản bảo đảm tối đa 02 tổ chức tín dụng (bao gồm cả MSB). Điều kiện này áp dụng đánh giá tại thời điểm cấp hạn mức hoặc kích hoạt hạn mức tín dụng, giao GĐ ĐVKD chịu trách nhiệm kiểm soát khi đánh giá tại thời điểm kích hoạt hạn mức tín dụng",
+              "processorInfo": "Không thỏa mãn",
+              "conclusion": "Không thỏa mãn",
+              "order": 7
+            }
+          ]
+        }
+      ]
+    },
+    "proposalInfo": {
+      "isNarrowCredit": false,
+      "isNotNarrowCredit": true,
+      "authorityLevel": null,
+      "toleranceDifference": {
+        "notHasDifference": true,
+        "hasDifference": false,
+        "criteriaDifference": null,
+        "showProgram": false,
+        "program": [],
+        "showProduct": false,
+        "product": [],
+        "showUnknown": false,
+        "differenceUnknown": null,
+        "differenceLimit": null,
+        "proposedBasis": []
+      },
+      "creditConditionInfo": {
+        "creditConditionCustomer": {
+          "creditConditionProgram": {
+            "cashFlows": [
+              {
+                "cashFlow": null,
+                "approvedCashFlow": null,
+                "isNewCashFlow": false,
+                "isAdjustCashFlow": false,
+                "isWithdrawCashFlow": false
+              }
+            ],
+            "atLeastOnceYear": false,
+            "atLeastOnceYearTitle": null,
+            "atLeastOnceYearDetail": null,
+            "approvedAtLeastOnceYearDetail": null,
+            "approvedAtLeastOnceYearTitle": null,
+            "isNewAtLeastOnceYearDetail": false,
+            "isAdjustAtLeastOnceYearDetail": false,
+            "isWithdrawAtLeastOnceYearDetail": false,
+            "disbursementControl": false,
+            "disbursementControlTitle": null,
+            "disbursementControlDetail": null,
+            "approvedDisbursementControlTitle": null,
+            "approvedDisbursementControlDetail": null,
+            "isNewDisbursementControlDetail": false,
+            "isAdjustDisbursementControlDetail": false,
+            "isWithdrawDisbursementControlDetail": false,
+            "conditionOther": false,
+            "conditionOtherTile": null,
+            "conditionOtherDetail": null,
+            "approvedConditionOtherTile": null,
+            "approvedConditionOtherDetail": null,
+            "isNewConditionOtherDetail": false,
+            "isAdjustConditionOtherDetail": false,
+            "isWithdrawConditionOtherDetail": false
+          },
+          "creditConditionSpecials": [
+            {
+              "index": 0,
+              "products": null,
+              "scopeApples": null,
+              "controlLevel": null,
+              "implementUnits": null,
+              "creditConditionGroup": null,
+              "descKey": null,
+              "timeControl": null,
+              "isNew": false,
+              "isAdjust": false,
+              "isWithdraw": false,
+              "approvedProducts": null,
+              "approvedScopeApples": null,
+              "approvedControlLevel": null,
+              "approvedImplementUnits": null,
+              "approvedCreditConditionGroup": null,
+              "approvedDescKey": null,
+              "approvedTimeControl": null
+            }
+          ],
+          "creditSpecialCustomerShowHide": false,
+          "isNewCreditConditionCustomer": false,
+          "isAdjustCreditConditionCustomer": false,
+          "isWithdrawCreditConditionCustomer": false
+        },
+        "creditConditionInternal": {
+          "creditConditionSpecials": [
+            {
+              "index": 0,
+              "products": null,
+              "scopeApples": null,
+              "controlLevel": null,
+              "implementUnits": null,
+              "creditConditionGroup": null,
+              "descKey": null,
+              "timeControl": null,
+              "isNew": false,
+              "isAdjust": false,
+              "isWithdraw": false,
+              "approvedProducts": null,
+              "approvedScopeApples": null,
+              "approvedControlLevel": null,
+              "approvedImplementUnits": null,
+              "approvedCreditConditionGroup": null,
+              "approvedDescKey": null,
+              "approvedTimeControl": null
+            }
+          ],
+          "creditSpecialInternalShowHide": false,
+          "creditConditionProgramInternal": {
+            "conditionOtherInternal": false,
+            "conditionOtherTileInternal": null,
+            "conditionOtherDetailInternal": null,
+            "approvedConditionOtherTileInternal": null,
+            "approvedConditionOtherDetailInternal": null,
+            "isNewConditionOtherDetailInternal": false,
+            "isAdjustConditionOtherDetailInternal": false,
+            "isWithdrawConditionOtherDetailInternal": false
+          },
+          "isNewCreditConditionInternal": false,
+          "isAdjustCreditConditionInternal": false,
+          "isWithdrawCreditConditionInternal": false
+        }
+      },
+      "categoryRefuseInfo": []
+    },
+    "documentAttach": {
+      "dateReportCustomer": null,
+      "dateReportCi": null,
+      "dateReportCA": null,
+      "showAttachCA": false,
+      "docNo": "00010043/2025/BCTTKH-MSB Nghệ An",
+      "rmUserFullName": null,
+      "ciUserFullName": null,
+      "caUserFullName": null,
+      "amUserFullName": null,
+      "tlUserFullName": null,
+      "hhUserFullName": null,
+      "dateReportRmBu": null
+    },
+    "digitalSignature": null,
+    "creditTermProposalInfo": {
+      "creditTermProposal": {
+        "maintainTime": 12,
+        "maintainTimeDetail": "kể từ ngày HĐTD có hiệu lực. ",
+        "purposeOfCredit": null,
+        "showPurposeOfCredit": false,
+        "hidePurposeOfCredit": true,
+        "businessDebtRepaymentSource": null,
+        "showBusinessDebtRepaymentSource": false,
+        "hideBusinessDebtRepaymentSource": true,
+        "disbursementForm": null,
+        "showDisbursementForm": false,
+        "hideDisbursementForm": true,
+        "principalRepaymentPeriods": [],
+        "showPrincipalRepaymentPeriods": false,
+        "hidePrincipalRepaymentPeriods": true,
+        "interestRateCost": null,
+        "foreignCurrencyCredit": false,
+        "falseForeignCurrencyCredit": true,
+        "hideCheckForeignCurrencyCredit": false,
+        "showMaintainTime": true,
+        "hideMaintainTime": false,
+        "creditProposalLevel5": null,
+        "showCreditProposalLevel5": false
+      },
+      "termOfferInfos": null,
+      "hideCheckTermOffer": false,
+      "showCheckTermOffer": null,
+      "termsEnforcements": null,
+      "showAdditionalDocuments": false,
+      "showOldApp": false,
+      "showCreditLimit": false,
+      "showCreditLimitExtend": false,
+      "showAssetWithAdjustFlow": false,
+      "showCreditCondition": false,
+      "showMarginRatio": false,
+      "showCreditLimitMergeCreditCondition": false,
+      "showAssetWithAdjustFlowOrCreditLimit": false,
+      "showCreditLimitOrCreditLimitExtend": false,
+      "hideCreditLimitForeign": false,
+      "hideAssetWithAdjustFlow": false,
+      "hideCreditCondition": false,
+      "hideMarginRatio": false,
+      "limitReviewPeriodOld": null,
+      "validityOfReApprovalOld": null,
+      "limitReviewPeriod": 120,
+      "validityOfReApproval": 60,
+      "showSolutionPackagesHook1Hook2Chain": false,
+      "showSolutionPackageHookAndChain": false,
+      "showSolutionPackageFlexibleMortgage": false,
+      "showSolutionPackageMain1Bu": false,
+      "solutionPackageMain1OrMain2OrMain3OrChainNoAssetOrChainOfAsset": true,
+      "solutionPackageFlexibleMortgageHo": false,
+      "solutionPackageMain1OrChainAssetHo": true
+    },
+    "isCA": null,
+    "isCANotRM": null,
+    "isCAOkRM": null,
+    "isStandardSameRate": false,
+    "isStandardRate": false,
+    "isSameRate": false,
+    "isRate": false,
+    "isStandard": false,
+    "isNoStandard": false,
+    "limitByCACs": [],
+    "totalLimit": null,
+    "limitAssetStandardSameRateTable": null,
+    "limitAssetStandardTable": null,
+    "limitByProduct": {
+      "limitByProductDetails": [
+        {
+          "index": "1",
+          "code": "EGD",
+          "parentCode": "",
+          "name": "Hạn mức M3, Chương trình tín dụng SME - Hạn mức giao dịch",
+          "level": 0,
+          "order": 0,
+          "approvedLimitValue": "",
+          "limitValue": "4,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 4000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M3",
+          "limitTreeName": "Hạn mức M3, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "1.1",
+          "code": "EGD1000",
+          "parentCode": "EGD",
+          "name": "Hạn mức cho vay, bảo lãnh, L/C ngắn hạn",
+          "level": 1,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "4,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 4000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M3",
+          "limitTreeName": "Hạn mức M3, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "1.1.1",
+          "code": "EGD1100",
+          "parentCode": "EGD1000",
+          "name": "Hạn mức cho vay ngắn hạn và chiết khấu không TSBĐ",
+          "level": 3,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "4,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 4000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M3",
+          "limitTreeName": "Hạn mức M3, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "1.1.1.1",
+          "code": "EGD1101",
+          "parentCode": "EGD1100",
+          "name": "Hạn mức cho vay thông thường quay vòng",
+          "level": 4,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "4,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 4000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M3",
+          "limitTreeName": "Hạn mức M3, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2",
+          "code": "ECS",
+          "parentCode": "",
+          "name": "Hạn mức M1, Chương trình tín dụng SME - Hạn mức cơ sở",
+          "level": 0,
+          "order": 0,
+          "approvedLimitValue": "300",
+          "limitValue": "15,400",
+          "approvedLimitValueCal": 300.0,
+          "limitValueCal": 15400.0,
+          "impactStatus": "Điều chỉnh",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1",
+          "code": "ECS1000",
+          "parentCode": "ECS",
+          "name": "Hạn mức cho vay, bảo lãnh, L/C ngắn hạn",
+          "level": 1,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "15,400",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 15400.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.1",
+          "code": "ECS1100",
+          "parentCode": "ECS1000",
+          "name": "Hạn mức cho vay ngắn hạn và chiết khấu",
+          "level": 3,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "15,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 15000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.1.1",
+          "code": "ECS1101",
+          "parentCode": "ECS1100",
+          "name": "Hạn mức cho vay thông thường quay vòng",
+          "level": 4,
+          "order": 1,
+          "approvedLimitValue": "",
+          "limitValue": "13,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 13000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.1.2",
+          "code": "ECS1103",
+          "parentCode": "ECS1100",
+          "name": "Hạn mức tài trợ phải thu",
+          "level": 4,
+          "order": 3,
+          "approvedLimitValue": "",
+          "limitValue": "15,000",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 15000.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.1.3",
+          "code": "ECS1104",
+          "parentCode": "ECS1100",
+          "name": "Hạn mức tài trợ xuất khẩu trước giao hàng",
+          "level": 4,
+          "order": 4,
+          "approvedLimitValue": "",
+          "limitValue": "0",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 0.0,
+          "impactStatus": "",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.1.4",
+          "code": "ECS1106",
+          "parentCode": "ECS1100",
+          "name": "Hạn mức tài trợ HDDR",
+          "level": 4,
+          "order": 6,
+          "approvedLimitValue": "",
+          "limitValue": "0",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 0.0,
+          "impactStatus": "",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.1.2",
+          "code": "ECS1200",
+          "parentCode": "ECS1000",
+          "name": "Hạn mức bảo lãnh ngắn hạn",
+          "level": 3,
+          "order": 2,
+          "approvedLimitValue": "",
+          "limitValue": "0",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 0.0,
+          "impactStatus": "",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.2",
+          "code": "ECS4000",
+          "parentCode": "ECS",
+          "name": "Hạn mức thẻ tín dụng có TSBD",
+          "level": 3,
+          "order": 4,
+          "approvedLimitValue": "300",
+          "limitValue": "300",
+          "approvedLimitValueCal": 300.0,
+          "limitValueCal": 300.0,
+          "impactStatus": "Duy trì",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        },
+        {
+          "index": "2.3",
+          "code": "ECS5000",
+          "parentCode": "ECS",
+          "name": "Hạn mức thấu chi có TSBD",
+          "level": 3,
+          "order": 5,
+          "approvedLimitValue": "",
+          "limitValue": "400",
+          "approvedLimitValueCal": null,
+          "limitValueCal": 400.0,
+          "impactStatus": "Duyệt mới",
+          "maxLoanTerm": null,
+          "minMarginRate": null,
+          "approvedMaxLoanTerm": null,
+          "approvedMinMarginRate": null,
+          "limitTreeCode": "EB_SME_M1",
+          "limitTreeName": "Hạn mức M1, Chương trình tín dụng SME",
+          "selected": true,
+          "latest": true
+        }
+      ],
+      "totalApprovedValue": "300",
+      "totalValue": "19,400",
+      "totalValueUnit": "19,400,000,000",
+      "totalValueText": "Mười chín tỷ bốn trăm triệu",
+      "totalApprovedValueCal": 300.0,
+      "totalValueCal": 19400.0,
+      "totalValueUnitCal": 1.94E+10
+    },
+    "limitAssetSameRateTable": null,
+    "limitAssetTable": null,
+    "showLimitAssetTableFlexibleMortgage": false,
+    "showLimitAssetTableHook": false,
+    "relatedInfo": null,
+    "termAndMarginRate": {
+      "showTermAndMarginRate": true,
+      "termAndMarginRates": [
+        {
+          "creditLimitLevel0": "Hạn mức M3, Chương trình tín dụng SME - Hạn mức giao dịch",
+          "creditLimitsLevel4": [
+            {
+              "index": "1.1.1.1",
+              "code": "EGD1101",
+              "parentCode": "EGD1100",
+              "level": 4,
+              "order": 1,
+              "creditLimitName": "Hạn mức cho vay thông thường quay vòng",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            }
+          ]
+        },
+        {
+          "creditLimitLevel0": "Hạn mức M1, Chương trình tín dụng SME - Hạn mức cơ sở",
+          "creditLimitsLevel4": [
+            {
+              "index": "2.1.1.1",
+              "code": "ECS1101",
+              "parentCode": "ECS1100",
+              "level": 4,
+              "order": 1,
+              "creditLimitName": "Hạn mức cho vay thông thường quay vòng",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.1.2",
+              "code": "ECS1200",
+              "parentCode": "ECS1000",
+              "level": 3,
+              "order": 2,
+              "creditLimitName": "Hạn mức bảo lãnh ngắn hạn",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.1.1.2",
+              "code": "ECS1103",
+              "parentCode": "ECS1100",
+              "level": 4,
+              "order": 3,
+              "creditLimitName": "Hạn mức tài trợ phải thu",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.1.1.3",
+              "code": "ECS1104",
+              "parentCode": "ECS1100",
+              "level": 4,
+              "order": 4,
+              "creditLimitName": "Hạn mức tài trợ xuất khẩu trước giao hàng",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.2",
+              "code": "ECS4000",
+              "parentCode": "ECS",
+              "level": 3,
+              "order": 4,
+              "creditLimitName": "Hạn mức thẻ tín dụng có TSBD",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.3",
+              "code": "ECS5000",
+              "parentCode": "ECS",
+              "level": 3,
+              "order": 5,
+              "creditLimitName": "Hạn mức thấu chi có TSBD",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            },
+            {
+              "index": "2.1.1.4",
+              "code": "ECS1106",
+              "parentCode": "ECS1100",
+              "level": 4,
+              "order": 6,
+              "creditLimitName": "Hạn mức tài trợ HDDR",
+              "maxLoanTerm": null,
+              "minMarginRate": null,
+              "approvedMaxLoanTerm": null,
+              "approvedMinMarginRate": null
+            }
+          ]
+        }
+      ]
+    },
+    "adjustmentTermAndMarginRate": {
+      "showTermAndMarginRate": false,
+      "termAndMarginRates": null
+    },
+    "creditCouncil": null,
+    "adjustments": [],
+    "segment": "SME",
+    "authorityName": null,
+    "showStandard": false,
+    "showLimitByProduct": true,
+    "visibleCollateral": false,
+    "showNoStandard": false,
+    "submissionPurpose": "Tái cấp",
+    "showCC1Authority": false,
+    "showCC2AuthorityAndHigher": false
+  }
+}

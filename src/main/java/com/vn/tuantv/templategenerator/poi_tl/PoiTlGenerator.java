@@ -4,7 +4,6 @@ import com.deepoove.poi.XWPFTemplate;
 import com.deepoove.poi.config.Configure;
 import com.deepoove.poi.plugin.table.LoopRowTableRenderPolicy;
 import com.deepoove.poi.policy.PictureRenderPolicy;
-import com.vn.tuantv.templategenerator.utils.JsonService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -26,9 +25,9 @@ public class PoiTlGenerator {
     private static final Configure configure = Configure.builder()
             // nếu bảng đơn giản có thể dùng LoopRowTableRenderPolicy để nhanh hơn
 //            .bind("items", new HackLoopTableRenderPolicy())
-            .bind("students", new LoopRowTableRenderPolicy())
-            .bind("subjects", new LoopRowTableRenderPolicy())
-            .bind("user.avatar", new PictureRenderPolicy())
+            .bind("students", new LoopRowTableRenderPolicy(true))
+            .bind("subjects", new LoopRowTableRenderPolicy(true))
+//            .bind("user.avatar", new PictureRenderPolicy())
             .build();
 
     private final AppearanceProcessor appearanceProcessor;
@@ -38,7 +37,7 @@ public class PoiTlGenerator {
             InputStream inputStream = new FileInputStream(templateFilePath);
             XWPFTemplate template = XWPFTemplate.compile(inputStream, configure);
             // Hậu xử lý: if-block + dọn đoạn/hàng rỗng (gói trong 1 lớp)
-            appearanceProcessor.process(template, data);
+//            appearanceProcessor.process(template, data);
             template.render(data);
             template.writeToFile(outputFilePath);
         } catch (Exception ex) {

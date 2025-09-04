@@ -1,8 +1,9 @@
 {
   "data" : {
     "user": {
-      "name": "Huy",
-      "age": 24
+      "name": null,
+      "age": 24,
+      "avatar": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/179088/Originals/meme-noi-tieng-nhat-12.jpg"
     },
     "students" : [
       {
@@ -21,7 +22,7 @@
       },
       {
         "name" : "subject B",
-        "credit" : "01"
+        "credit" : null
       }
     ]
   }

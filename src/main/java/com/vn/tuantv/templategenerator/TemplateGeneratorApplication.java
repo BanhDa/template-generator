@@ -44,9 +44,9 @@ public class TemplateGeneratorApplication implements CommandLineRunner {
 //    System.out.println("wordTemplateData: " + JsonService.toJsonString(excelTemplateData));
 //    wordGenerator.generate(wordTemplateFilePath, wordOutputFilePath, wordTemplateData);
 
-      String wordTemplateFilePath = "word_template_poi_tl.docx";
-      String wordOutputFilePath = "word_template_poi_tl_output.docx";
-      String wordDataJsonFilePath = "word_data_poi_tl_json.json";
+      String wordTemplateFilePath = "temp/tttd.docx";
+      String wordOutputFilePath = "temp/tttd_out.docx";
+      String wordDataJsonFilePath = "temp/tttd.json";
       DocTemplateData docTemplateData = JsonService.readJsonFile(wordDataJsonFilePath, DocTemplateData.class);
       System.out.println("docTemplateData: " + JsonService.toJsonString(docTemplateData));
       assert docTemplateData != null;
