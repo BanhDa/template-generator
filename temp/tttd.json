@@ -2,7 +2,7 @@
   "data": {
     "type": "RM",
     "docNo": "00010043/2025/BCTTKH-MSB Nghệ An",
-    "day": "09",
+    "day": ["09", "10"],
     "month": "08",
     "year": "2025",
     "userName": null,
@@ -156,7 +156,7 @@
           "creditDemandName": null
         }
       ],
-      "collateralRecoveryAbility": "Có khả năng thu hồi",
+      "collateralRecoveryAbility": "Cókhả năng thu hồi",
       "collateralComment": [
         {
           "type": "text",

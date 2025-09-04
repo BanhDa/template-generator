@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.Arrays;
 import java.util.Map;
 
 @Slf4j
@@ -23,6 +24,7 @@ public class PoiTlGenerator {
     private static final String outputFilePath = "";
 
     private static final Configure configure = Configure.builder()
+            .useSpringEL()
             // nếu bảng đơn giản có thể dùng LoopRowTableRenderPolicy để nhanh hơn
 //            .bind("items", new HackLoopTableRenderPolicy())
             .bind("students", new LoopRowTableRenderPolicy(true))
